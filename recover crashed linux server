@@ -1,0 +1,10 @@
+Yes we can recover the linux os with data by simply taking
+the entire OS backup by simply using the script.i had tested
+it kindly check the below script
+
+dt=`date +%d%b%y`
+tar cvpzf /u1/backup/rootbkp/240SRVR_rootbkp_$dt.tgz
+--exclude=/proc --exclude=/lost+found --exclude=/mnt
+--exclude=/usr/local --exclude=/mnt --exclude=/sys
+--exclude=/u --exclude=/u1 --exclude=/u2 --exclude=/u01
+--exclude=/u02 /
