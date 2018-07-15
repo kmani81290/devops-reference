@@ -481,6 +481,11 @@ ANSIBLE COMMANDS
 	  become: true
 	  roles: 
 	   - basic
+	   
+	   
+	---
+	- hosts: all
+  	  roles:
   
   
 	// Run playbook.yml using following command - verify you are in myplatform directory
