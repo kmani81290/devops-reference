@@ -420,7 +420,7 @@ ANSIBLE COMMANDS
   
 	ansible -u root -m ping all
 	ansible -u root -m shell -a 'hostname' all
-	ansible -u root -m shell -a 'df-h' all
+	ansible -u root -m shell -a 'df -h' all
 	ansible -u root -m shell -a 'whoami' all
  
  --------------------------------------------------------------------------------------
